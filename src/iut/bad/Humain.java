@@ -8,13 +8,7 @@ package iut.bad;
  *
  * @author axm
  */
-public class Homme extends Humain {
-    public Homme(){}
-    
-    public Homme(String nom, String prenom, int age) {
-        this.nom = nom;
-        this.prenom = prenom;
-        this.age = age;
-    }
-    
+public class Humain {
+    String nom, prenom;
+    int age;
 }

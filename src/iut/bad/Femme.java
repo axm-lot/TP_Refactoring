@@ -8,9 +8,7 @@ package iut.bad;
  *
  * @author axm
  */
-public class Femme {
-    String nom, prenom;
-    int age;
+public class Femme extends Humain {
     
     public Femme(){}
     
@@ -19,6 +17,4 @@ public class Femme {
         this.prenom = prenom;
         this.age = age;
     }
-    
-    
 }
