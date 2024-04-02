@@ -11,4 +11,8 @@ package iut.bad;
 public class Humain {
     String nom, prenom;
     int age;
+    
+    public void details(){
+        System.out.println("Nom: "+this.nom+"\nPrenom: "+this.prenom+"\nAge: "+this.age);
+    }
 }
