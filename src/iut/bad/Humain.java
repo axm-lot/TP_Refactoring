@@ -26,5 +26,9 @@ public class Humain implements Consommation{
     @Override
     public void boire(){
         
-    }    
+    }
+    
+    public void ami(Humain autre){
+        
+    }
 }
