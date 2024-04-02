@@ -22,4 +22,10 @@ public class Femme extends Humain {
     public String toString(){
         return "Nom: " + this.nom + "\nPrénom: " + this.prenom + "\nAge: " + this.age;
     }
+    
+    public static void main(String[] args){
+        Homme homme = new Homme();
+        Femme femme = new Femme();
+        femme.ami(homme);
+    }
 }
