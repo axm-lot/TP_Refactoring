@@ -9,6 +9,7 @@ package iut.bad;
  * @author axm
  */
 public class Homme extends Humain {
+    
     public Homme(){}
     
     public Homme(String nom, String prenom, int age) {
@@ -17,4 +18,8 @@ public class Homme extends Humain {
         this.age = age;
     }
     
+    @Override
+    public String toString(){
+        return "Nom: " + this.nom + "\nPrénom: " + this.prenom + "\nAge: " + this.age;
+    }
 }

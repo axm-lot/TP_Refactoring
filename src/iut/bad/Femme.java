@@ -17,4 +17,9 @@ public class Femme extends Humain {
         this.prenom = prenom;
         this.age = age;
     }
+    
+    @Override
+    public String toString(){
+        return "Nom: " + this.nom + "\nPrénom: " + this.prenom + "\nAge: " + this.age;
+    }
 }
