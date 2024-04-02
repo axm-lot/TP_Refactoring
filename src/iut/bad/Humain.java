@@ -11,6 +11,7 @@ package iut.bad;
 public class Humain implements Consommation{
     String nom, prenom;
     int age;
+    int dureeAmitie = 100;
     
 @Override
     public String toString() {
@@ -29,6 +30,10 @@ public class Humain implements Consommation{
     }
     
     public void ami(Humain autre){
-        
+        ami(autre,dureeAmitie);
+    }
+  
+    public void ami(Humain autre, int dureeAmitie){
+        this.dureeAmitie = dureeAmitie;
     }
 }
