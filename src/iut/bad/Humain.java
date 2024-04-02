@@ -16,4 +16,12 @@ public class Humain {
     public String toString() {
         return "Nom: " + this.nom + "\nPrenom: " + this.prenom + "\nAge: " + this.age;
     }
+    
+    public void manger(){
+        
+    }
+    
+    public void boire(){
+        
+    }    
 }
